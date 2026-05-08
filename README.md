@@ -2,7 +2,7 @@
 
 GesturePilot is a powerful, modular, and real-time gesture control system for your PC. It uses computer vision (OpenCV and MediaPipe) to detect hand landmarks and translate finger movements into system actions, allowing you to control your computer without touching it.
 
-![GesturePilot Demo](screenshot_20260509_004019.png)
+![GesturePilot Demo](gesture_pilot_hero.png)
 
 ## ✨ Key Features
 
