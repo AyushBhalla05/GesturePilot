@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "description": "GesturePilot Gesture Library - Phase 2",
+  "gestures": [
+    {
+      "id": "right_one_finger",
+      "name": "One Finger (Right)",
+      "description": "Index finger extended",
+      "hand": "right",
+      "pattern": [0, 1, 0, 0, 0],
+      "action": "open_youtube",
+      "enabled": true,
+      "icon": "👆"
+    },
+    {
+      "id": "right_two_fingers",
+      "name": "Two Fingers (Right)",
+      "description": "Index and middle fingers extended",
+      "hand": "right",
+      "pattern": [0, 1, 1, 0, 0],
+      "action": "music_play_pause",
+      "enabled": true,
+      "icon": "✌️"
+    },
+    {
+      "id": "right_three_fingers",
+      "name": "Three Fingers (Right)",
+      "description": "Index, middle, and ring fingers extended",
+      "hand": "right",
+      "pattern": [0, 1, 1, 1, 0],
+      "action": "volume_up",
+      "enabled": true,
+      "icon": "🤟"
+    },
+    {
+      "id": "right_four_fingers",
+      "name": "Four Fingers (Right)",
+      "description": "All fingers except thumb extended",
+      "hand": "right",
+      "pattern": [0, 1, 1, 1, 1],
+      "action": "open_calculator",
+      "enabled": true,
+      "icon": "🖖"
+    },
+    {
+      "id": "right_five_fingers",
+      "name": "Open Palm (Right)",
+      "description": "All fingers extended",
+      "hand": "right",
+      "pattern": [1, 1, 1, 1, 1],
+      "action": "take_screenshot",
+      "enabled": true,
+      "icon": "🖐️"
+    },
+    {
+      "id": "right_fist",
+      "name": "Fist (Right)",
+      "description": "All fingers closed",
+      "hand": "right",
+      "pattern": [0, 0, 0, 0, 0],
+      "action": "stop_action",
+      "enabled": true,
+      "icon": "✊"
+    },
+    {
+      "id": "right_thumbs_up",
+      "name": "Thumbs Up (Right)",
+      "description": "Only thumb extended",
+      "hand": "right",
+      "pattern": [1, 0, 0, 0, 0],
+      "action": "brightness_up",
+      "enabled": true,
+      "icon": "👍"
+    },
+    {
+      "id": "left_one_finger",
+      "name": "One Finger (Left)",
+      "description": "Index finger extended",
+      "hand": "left",
+      "pattern": [0, 1, 0, 0, 0],
+      "action": "browser_new_tab",
+      "enabled": true,
+      "icon": "👆"
+    },
+    {
+      "id": "left_two_fingers",
+      "name": "Two Fingers (Left)",
+      "description": "Index and middle fingers extended",
+      "hand": "left",
+      "pattern": [0, 1, 1, 0, 0],
+      "action": "browser_close_tab",
+      "enabled": true,
+      "icon": "✌️"
+    },
+    {
+      "id": "left_three_fingers",
+      "name": "Three Fingers (Left)",
+      "description": "Index, middle, and ring fingers extended",
+      "hand": "left",
+      "pattern": [0, 1, 1, 1, 0],
+      "action": "volume_down",
+      "enabled": true,
+      "icon": "🤟"
+    },
+    {
+      "id": "left_four_fingers",
+      "name": "Four Fingers (Left)",
+      "description": "All fingers except thumb extended",
+      "hand": "left",
+      "pattern": [0, 1, 1, 1, 1],
+      "action": "open_notepad",
+      "enabled": true,
+      "icon": "🖖"
+    },
+    {
+      "id": "left_five_fingers",
+      "name": "Open Palm (Left)",
+      "description": "All fingers extended",
+      "hand": "left",
+      "pattern": [1, 1, 1, 1, 1],
+      "action": "minimize_all",
+      "enabled": true,
+      "icon": "🖐️"
+    },
+    {
+      "id": "left_fist",
+      "name": "Fist (Left)",
+      "description": "All fingers closed",
+      "hand": "left",
+      "pattern": [0, 0, 0, 0, 0],
+      "action": "music_next",
+      "enabled": true,
+      "icon": "✊"
+    },
+    {
+      "id": "left_thumbs_up",
+      "name": "Thumbs Up (Left)",
+      "description": "Only thumb extended",
+      "hand": "left",
+      "pattern": [1, 0, 0, 0, 0],
+      "action": "brightness_down",
+      "enabled": true,
+      "icon": "👍"
+    }
+  ],
+  "settings": {
+    "confidence_threshold": 80,
+    "stability_frames": 15,
+    "cooldown_seconds": 2.0,
+    "min_detection_confidence": 0.7
+  }
+}

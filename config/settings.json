@@ -1,0 +1,36 @@
+{
+  "app": {
+    "version": "1.0.0",
+    "first_run": false,
+    "window_width": 1200,
+    "window_height": 850
+  },
+  "camera": {
+    "resolution_width": 1280,
+    "resolution_height": 720,
+    "fps": 30,
+    "camera_index": 0
+  },
+  "detection": {
+    "confidence_threshold": 80,
+    "stability_frames": 15,
+    "cooldown_duration": 2.0,
+    "min_detection_confidence": 0.7,
+    "min_tracking_confidence": 0.5
+  },
+  "ui": {
+    "show_skeleton": true,
+    "show_fps": true,
+    "show_confidence": true,
+    "dark_mode": true,
+    "voice_feedback": true
+  },
+  "autostart": {
+    "enabled": false
+  },
+  "advanced": {
+    "max_history_size": 100,
+    "auto_save_interval": 10,
+    "log_level": "INFO"
+  }
+}

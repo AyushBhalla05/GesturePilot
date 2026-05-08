@@ -1,0 +1,16 @@
+# GesturePilot - Phase 1 Requirements
+# Core dependencies for camera, person detection, and hand detection
+
+# Computer Vision
+opencv-python==4.8.0.76
+numpy==1.24.3
+
+# MediaPipe for hand and pose detection
+mediapipe==0.10.5
+
+# Optional: For better performance
+# opencv-contrib-python==4.8.0.76  # Additional OpenCV modules
+
+# Development tools (optional)
+# pytest==7.4.3  # For testing
+# black==23.11.0  # Code formatting
