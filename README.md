@@ -48,17 +48,36 @@ Simply run the main script to launch the application:
 python main.py
 ```
 
-### 🖐️ Basic Gestures
+### 🖐️ Gesture Controls
+
+The system distinguishes between left and right hands, providing a wide range of controls:
+
+#### ➡️ Right Hand (Primary Actions)
 
 | Gesture | Action | Description |
-|---------|--------|-------------|
-| 🖐️ Open Palm | None | Neutral state |
-| ☝️ Index Up | Move Mouse | Control cursor |
-| ✌️ V-Sign | Volume Up | Increase system volume |
-| 🤙 Call Sign | Volume Down | Decrease system volume |
-| ✊ Fist | Mute | Toggle system mute |
+|:---:|---|---|
+| 👆 | **Open YouTube** | Launches YouTube in your default browser |
+| ✌️ | **Play/Pause** | Toggle media playback (Music/Video) |
+| 🤟 | **Volume Up** | Increase system volume |
+| 🖖 | **Calculator** | Open the Windows Calculator |
+| 🖐️ | **Screenshot** | Capture and save a screenshot |
+| ✊ | **Stop** | Neutralize or stop the current action |
+| 👍 | **Brightness Up**| Increase display brightness |
 
-*(Note: Gestures can be customized in `gesture_library.json`)*
+#### ⬅️ Left Hand (System & Browser)
+
+| Gesture | Action | Description |
+|:---:|---|---|
+| 👆 | **New Tab** | Open a new tab in your browser (Ctrl+T) |
+| ✌️ | **Close Tab** | Close the current browser tab (Ctrl+W) |
+| 🤟 | **Volume Down** | Decrease system volume |
+| 🖖 | **Notepad** | Open Windows Notepad for quick notes |
+| 🖐️ | **Minimize All**| Show Desktop / Minimize all windows |
+| ✊ | **Next Track** | Skip to the next media track |
+| 👍 | **Brightness Down**| Decrease display brightness |
+
+*(Note: These mappings can be customized in `gesture_library.json`)*
+
 
 ## 📂 Project Structure
 
