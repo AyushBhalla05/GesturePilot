@@ -81,18 +81,42 @@ The system distinguishes between left and right hands, providing a wide range of
 
 ## 📂 Project Structure
 
-```text
-GesturePilot/
-├── main.py                # Entry point
-├── hand_detector.py       # MediaPipe integration
-├── gesture_recognizer.py  # Gesture logic
-├── action_executor.py     # System control logic
-├── ui_manager.py          # GUI implementation
-├── settings_panel.py      # Configuration interface
-├── history_manager.py     # Data logging
-├── config_manager.py      # Settings management
-└── requirements.txt       # Dependencies
-```
+To help you navigate the codebase, here is a breakdown of the key files and their responsibilities:
+
+### 🧠 Core Logic
+| File | Role |
+| :--- | :--- |
+| `main.py` | **The Heart of the App**: Entry point that initializes all components and runs the main loop. |
+| `hand_detector.py` | **Computer Vision**: Integrates MediaPipe for real-time hand landmark detection. |
+| `gesture_recognizer.py`| **Logic Layer**: Analyzes landmark data to identify specific gestures. |
+| `finger_analyzer.py` | **Detailed Analysis**: Checks individual finger states (extended, folded, etc.). |
+| `action_executor.py` | **The Doer**: Executes system actions like opening apps or controlling volume. |
+| `system_controller.py` | **The Orchestrator**: Manages the coordination between detection and execution. |
+
+### 🎨 User Interface
+| File | Role |
+| :--- | :--- |
+| `ui_manager.py` | **Dashboard**: Implements the main dark-themed GUI and camera overlay. |
+| `settings_panel.py` | **Customization**: GUI for adjusting sensitivity, resolution, and features. |
+| `history_viewer.py` | **Visualization**: A dedicated panel to view past session logs. |
+
+### 🛠️ Infrastructure & Utilities
+| File | Role |
+| :--- | :--- |
+| `config_manager.py` | **Persistence**: Saves and loads user preferences from JSON files. |
+| `history_manager.py` | **Data Logger**: Saves gesture history into CSV/JSON for tracking. |
+| `camera_manager.py` | **Hardware**: Handles stable camera feed capture and processing. |
+| `voice_feedback.py` | **Accessibility**: Provides audio confirmation for executed gestures. |
+| `autostart_manager.py`| **Integration**: Manages Windows Startup settings. |
+
+### 📁 Data & Config
+- `gesture_library.json`: The source of truth for gesture-to-action mappings.
+- `requirements.txt`: List of Python libraries needed to run the project.
+- `screenshots/`: Visual assets showing the app in action.
+
+---
+*Note: Files like `main_phase1.py` through `main_phase4.py` represent the evolutionary stages of this project, documenting the journey from a simple detector to a full-fledged system.*
+
 
 ## 🛠️ Configuration
 
